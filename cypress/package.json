@@ -1,0 +1,27 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Framework for test API",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paraujocaimi/ApiFramework.git"
+  },
+  "keywords": [
+    "api",
+    "framework",
+    "cypress"
+  ],
+  "author": "Priscila Caimi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paraujocaimi/ApiFramework/issues"
+  },
+  "homepage": "https://github.com/paraujocaimi/ApiFramework#readme"
+}
