@@ -1,26 +1,26 @@
-API Test Framework 
+API Test Framework
 
-## Pre requisitos 
+## Pre requisitos
 
 - Install Node.js
 - Install npm
-- Install json-server 
+- Install json-server
 
 
 
-## Setting up the Project 
+## Setting up the Project
 
-First of all, do you need to install json-server 
+First of all, do you need to install json-server, if you not install with -g the computer will not recognize this command after.
 
 ```
     npm install -g json-server
 ```
 
-After that need to create ```db.json``` for initialize the date, like the exemple file. 
+After that need to create ```db.json``` for initialize the date, like the exemple file in ```config/bd/db.json``` 
 
 Now in file ```cypress.json```, is necessary put the localhost for start the server , and after that use the command line to up the server
 
-To start **JSON server**, use the command line 
+To start **JSON server**, use the command line
 
 ```
     json-server --watch db.json
@@ -29,7 +29,7 @@ To start **JSON server**, use the command line
 
 ## Runner Test
 
-Inside of the cypress folder, run this command line
+In the root folder, set this command to open cypress and run test.
 
 ```
     npx cypress open
@@ -54,6 +54,6 @@ Inside of the cypress folder, run this command line
 
 ## References
 
-The Api data was take for https://hp-api.herokuapp.com/ 
+The Api data was take for https://hp-api.herokuapp.com/
 
-Any other exemples can acess the reference page https://github.com/typicode/json-server 
+Any other exemples can acess the reference page https://github.com/typicode/json-server
