@@ -1,6 +1,3 @@
 {
-    "characters": "http://localhost:3000/characters",
-    "gryffindor": "http://localhost:3000/gryffindor",
-    "students": "http://localhost:3000/students",
-    "staff": "http://localhost:3000/staff"
+
 }
