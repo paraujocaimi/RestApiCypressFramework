@@ -7,8 +7,8 @@ API Test Framework
 - Install json-server
 
 
-
-## Setting up the Project
+@deprecated
+## Setting up the Project 
 
 First of all, do you need to install json-server, if you not install with -g the computer will not recognize this command after.
 
@@ -29,12 +29,18 @@ To start **JSON server**, use the command line
 
 ## Runner Test
 
+First of all, you need to give this command line, for install all necessary packages
+
+```
+    npm install 
+```
 In the root folder, set this command to open cypress and run test.
 
 ```
     npx cypress open
 ```
 
+@deprecated
 ## Routes
 
  ### Home
